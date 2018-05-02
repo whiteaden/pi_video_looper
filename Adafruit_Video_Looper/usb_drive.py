@@ -38,7 +38,7 @@ class USBDriveReader(object):
 
     def idle_message(self):
         """Return a message to display when idle and no files are found."""
-        return 'This is line 1\\This is line B'
+        return 'This is line 1\This is line B'
 
 def create_file_reader(config):
     """Create new file reader based on mounting USB drives."""
